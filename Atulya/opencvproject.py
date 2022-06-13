@@ -150,7 +150,7 @@ for c in contours[1:]:                                          #to copy remaini
             to1 = cv2.resize(to1,newshape)
             imnew[ymin:(ymax),xmin:(xmax),:]=to1
 cv2.drawContours(imnew,g, -1, (255, 0, 0), 3)
-cv2.imwrite('new.jpg',imnew)                                    #saving final image
+cv2.imwrite('final.jpg',imnew)                                    #saving final image
 
         
     
